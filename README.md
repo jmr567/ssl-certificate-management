@@ -15,6 +15,7 @@ The configuration file san.cnf is the basis for all scripts. They will run based
 To ensure the csr is valid and contains the correct information use ./check-csr.sh
 
 ## Send your CSR off to a certifcate authority to be signed
+This will vary according to your CA
 
 ## Validate the Certificate
 To ensure the signed certificate has maintained it's integrity through the signing process use ./check-certificate.sh
