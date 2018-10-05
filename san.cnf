@@ -1,0 +1,11 @@
+[ req ]
+default_bits       = 2048
+distinguished_name = req_distinguished_name
+prompt             = no
+[ req_distinguished_name ]
+countryName         = AU
+stateOrProvinceName = NSW
+localityName        = Sydney
+organizationName    = My Org
+emailAddress        = myemail@mydomain.com
+commonName          = mydomain.com
